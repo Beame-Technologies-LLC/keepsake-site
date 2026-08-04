@@ -1,0 +1,20 @@
+# Keepsake
+
+> Keepsake is an on-demand photography app by Beame Technologies LLC. Customers book a photographer who comes to their location for a short session. Photos are taken in the app and delivered to the customer's private in-app album, and photographers never receive or keep copies.
+
+## About
+
+Sessions run from about 5 minutes to an hour, with most packages between roughly $15 and $75. Payment is by card, authorized at booking and captured on delivery. Tips are optional and go entirely to the photographer. Keepsake is available on iOS and Android.
+
+## Pages
+
+- [Home](https://sharedkeepsake.com/): What Keepsake is and how a session works.
+- [Support](https://sharedkeepsake.com/support.html): How to get help, FAQ on booking, cancellations, photos, payments and refunds, and how to report a safety concern.
+- [Privacy Policy](https://sharedkeepsake.com/privacy.html): What is collected, why, how long it is kept, and user rights.
+- [Terms of Service](https://sharedkeepsake.com/terms.html): Bookings, payments, cancellations, photo rights, and conduct.
+- [Delete your account](https://sharedkeepsake.com/delete-account.html): Deleting an account and personal data in the app, what is removed, and what is retained.
+
+## Contact
+
+- Support email: support@beametechnologies.com
+- In-app support: the "Get help" screen on the Profile tab, which opens a support ticket.
