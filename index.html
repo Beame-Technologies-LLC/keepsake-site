@@ -44,8 +44,10 @@
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="hero/poster.webp">
+<link rel="preload" as="image" href="hero/poster.webp" media="(orientation: landscape)">
+<link rel="preload" as="image" href="hero/poster-v.webp" media="(orientation: portrait)">
 <style>
   :root { --coral:#F2685C; --cream:#FDF6EC; --navy:#312F4F; --yellow:#F5B940; --teal:#2FA795; --muted:#6F6C8F; }
   * { margin:0; box-sizing:border-box; }
@@ -199,7 +201,7 @@
   </section>
 
   <section class="steps">
-    <div class="step"><div class="n">1</div><h3>Request</h3><p>Pick your spot and a package, from $9.99 for 5 minutes to $64.99 for an hour. Want pro glass? Pro Camera brings a verified professional camera.</p></div>
+    <div class="step"><div class="n">1</div><h3>Request</h3><p>Pick your spot and a package, from $9.99 for 5 minutes to $64.99 for an hour. Want pro glass? Pro Camera is coming soon.</p></div>
     <div class="step"><div class="n">2</div><h3>Track</h3><p>A nearby photographer accepts and heads your way. You watch them arrive on a live map.</p></div>
     <div class="step"><div class="n">3</div><h3>Shoot &amp; Receive</h3><p>Photos are taken in the app and land in your album as they're shot. Rate your photographer, tip if you loved it.</p></div>
   </section>
@@ -259,14 +261,37 @@
   function load(set, i, cb) {
     if (set.imgs[i]) { if (set.loaded[i] && cb) cb(); return; }
     var im = new Image();
-    im.onload = function () { set.loaded[i] = true; if (cb) cb(); };
+    var done = false;
+    function finish(ok) {
+      if (done) return;          // onload and onerror must never both count
+      done = true;
+      if (ok) set.loaded[i] = true;
+      if (cb) cb();
+    }
+    im.onload = function () { finish(true); };
+    // A frame that fails must still release its slot, or the loader stalls
+    // forever on one bad request. draw() already skips back to the nearest
+    // loaded frame, so a gap is invisible.
+    im.onerror = function () { finish(false); };
     im.src = set.dir + 'f' + String(i + 1).padStart(3, '0') + '.webp';
     set.imgs[i] = im;
   }
+  // Six frames in flight at once instead of a single chain. The old version
+  // waited for each frame's onload before requesting the next, so 84 frames
+  // meant 84 serial round trips and the load was mostly idle waiting rather
+  // than downloading. Frames are still requested in ascending order and draw()
+  // already walks back to the nearest loaded frame, so out-of-order arrival is
+  // handled. Nothing about the look changes; it just arrives sooner.
+  var LANES = 6;
   function pump(set) {
-    if (set.next >= set.count) return;
-    var i = set.next++;
-    load(set, i, function () { pump(set); });
+    if (set.lanes === undefined) set.lanes = 0;
+    while (set.lanes < LANES && set.next < set.count) {
+      set.lanes++;
+      load(set, set.next++, function () {
+        set.lanes--;
+        pump(set);
+      });
+    }
   }
 
   function draw() {
