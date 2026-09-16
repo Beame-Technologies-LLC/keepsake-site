@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sharedkeepsake.com/sitemap.xml
+Sitemap: https://ofmephotos.com/sitemap.xml

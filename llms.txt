@@ -1,20 +1,27 @@
-# Keepsake
+# OfMe
 
-> Keepsake is an on-demand photography app by Beame Technologies LLC. Customers book a photographer who comes to their location for a short session. Photos are taken in the app and delivered to the customer's private in-app album, and photographers never receive or keep copies.
+> OfMe is an on-demand photography app by Beame Technologies LLC. Customers book a photographer who comes to their location for a short session. Photos are taken in the app and delivered to the customer's private in-app album, and photographers never receive or keep copies.
 
 ## About
 
-Sessions run from about 5 minutes to an hour, with most packages between roughly $15 and $75. Payment is by card, authorized at booking and captured on delivery. Tips are optional and go entirely to the photographer. Keepsake is available on iOS and Android.
+Sessions run from 5 minutes to an hour, priced $9.99 to $64.99. Requesting one specific photographer by name costs 1.5 times the list price. Payment is by card, authorized at booking and captured on delivery. Tips are optional and go entirely to the photographer. OfMe is coming to the App Store and is not open for bookings yet.
 
 ## Pages
 
-- [Home](https://sharedkeepsake.com/): What Keepsake is and how a session works.
-- [Support](https://sharedkeepsake.com/support.html): How to get help, FAQ on booking, cancellations, photos, payments and refunds, and how to report a safety concern.
-- [Privacy Policy](https://sharedkeepsake.com/privacy.html): What is collected, why, how long it is kept, and user rights.
-- [Terms of Service](https://sharedkeepsake.com/terms.html): Bookings, payments, cancellations, photo rights, and conduct.
-- [Delete your account](https://sharedkeepsake.com/delete-account.html): Deleting an account and personal data in the app, what is removed, and what is retained.
+- [Home](https://ofmephotos.com/): What OfMe is and how a session works.
+- [Cities](https://ofmephotos.com/photographer/): The six areas OfMe is opening first, and how a session works in each.
+- [Charlotte, NC](https://ofmephotos.com/photographer/charlotte-nc/): Neighborhoods, spots, prices, and local FAQ for Charlotte.
+- [Winston-Salem, NC](https://ofmephotos.com/photographer/winston-salem-nc/): Neighborhoods, spots, prices, and local FAQ for Winston-Salem.
+- [Charleston, SC](https://ofmephotos.com/photographer/charleston-sc/): Neighborhoods, spots, prices, and local FAQ for Charleston.
+- [Palm Beach County, FL](https://ofmephotos.com/photographer/palm-beach-county-fl/): Towns, spots, prices, and local FAQ for Palm Beach County.
+- [Tucson, AZ](https://ofmephotos.com/photographer/tucson-az/): Neighborhoods, spots, prices, and local FAQ for Tucson.
+- [New York City](https://ofmephotos.com/photographer/new-york-ny/): Boroughs, spots, prices, and local FAQ for New York City.
+- [Support](https://ofmephotos.com/support.html): How to get help, FAQ on booking, cancellations, photos, payments and refunds, and how to report a safety concern.
+- [Privacy Policy](https://ofmephotos.com/privacy.html): What is collected, why, how long it is kept, and user rights.
+- [Terms of Service](https://ofmephotos.com/terms.html): Bookings, payments, cancellations, photo rights, and conduct.
+- [Delete your account](https://ofmephotos.com/delete-account.html): Deleting an account and personal data in the app, what is removed, and what is retained.
 
 ## Contact
 
-- Support email: support@beametechnologies.com
+- Support email: support@ofmephotos.com
 - In-app support: the "Get help" screen on the Profile tab, which opens a support ticket.
