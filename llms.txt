@@ -9,13 +9,6 @@ Sessions run from 5 minutes to an hour, priced $9.99 to $64.99. Requesting one s
 ## Pages
 
 - [Home](https://ofmephotos.com/): What OfMe is and how a session works.
-- [Cities](https://ofmephotos.com/photographer/): The six areas OfMe is opening first, and how a session works in each.
-- [Charlotte, NC](https://ofmephotos.com/photographer/charlotte-nc/): Neighborhoods, spots, prices, and local FAQ for Charlotte.
-- [Winston-Salem, NC](https://ofmephotos.com/photographer/winston-salem-nc/): Neighborhoods, spots, prices, and local FAQ for Winston-Salem.
-- [Charleston, SC](https://ofmephotos.com/photographer/charleston-sc/): Neighborhoods, spots, prices, and local FAQ for Charleston.
-- [Palm Beach County, FL](https://ofmephotos.com/photographer/palm-beach-county-fl/): Towns, spots, prices, and local FAQ for Palm Beach County.
-- [Tucson, AZ](https://ofmephotos.com/photographer/tucson-az/): Neighborhoods, spots, prices, and local FAQ for Tucson.
-- [New York City](https://ofmephotos.com/photographer/new-york-ny/): Boroughs, spots, prices, and local FAQ for New York City.
 - [Support](https://ofmephotos.com/support.html): How to get help, FAQ on booking, cancellations, photos, payments and refunds, and how to report a safety concern.
 - [Privacy Policy](https://ofmephotos.com/privacy.html): What is collected, why, how long it is kept, and user rights.
 - [Terms of Service](https://ofmephotos.com/terms.html): Bookings, payments, cancellations, photo rights, and conduct.
