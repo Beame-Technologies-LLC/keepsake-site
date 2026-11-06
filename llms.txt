@@ -4,7 +4,7 @@
 
 ## About
 
-Sessions run from 5 minutes to an hour, priced $9.99 to $64.99. Requesting one specific photographer by name costs more, and the app shows the price before booking. Payment is by card, authorized at booking and captured on delivery. Tips are optional and go entirely to the photographer. OfMe is coming to the App Store and is not open for bookings yet.
+Sessions run from 5 minutes to an hour, priced $9.99 to $64.99. Requesting one specific photographer by name costs more, and the app shows the price before booking. A session can be extended at a discount when it ends, if the photographer is still available. Payment is by card, authorized at booking and captured on delivery. Tips are optional and go entirely to the photographer. OfMe is coming to the App Store and is not open for bookings yet.
 
 ## Pages
 
